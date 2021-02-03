@@ -15,20 +15,19 @@ header img {
   margin-top: 15px;
   float: left;
 }
-header span{
+header span {
   display: inline-block;
   line-height: 100px;
+  margin-left: 90px;
 }
 header span:nth-child(2) {
   margin-left: 30px;
+  text-decoration: none;
 }
 nav a {
   text-decoration: none;
-  color: #aaaaaa
+  color: #aaa;
 }
-
-
-
 
 /* main */
 main {
@@ -52,7 +51,7 @@ main article {
 }
 main h2 {
   margin-left: 30px;
-font-size: 20px;
+  font-size: 20px;
 }
 main p {
   height: 330px;
@@ -77,9 +76,9 @@ article div:hover {
   transition: 350ms;
 }
 
-
 /* footer */
 footer {
   background-color: #444;
   height: 125px;
+  margin-top: 30px;
 }
